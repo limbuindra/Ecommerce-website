@@ -5,7 +5,7 @@ const Home = () => {
 		<>
 			<div
 				id="carouselExampleIndicators"
-				className="carousel slide"
+				className="carousel slide "
 				data-bs-ride="carousel"
 			>
 				<div className="carousel-indicators">
