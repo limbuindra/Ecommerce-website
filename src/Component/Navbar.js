@@ -7,8 +7,8 @@ import { useSelector } from "react-redux";
 
 const Navbar = () => {
 	return (
-		<div className="sticky-top">
-			<nav className="navbar  navbar-expand-lg navbar-light  bg-white py-3 shadow-sm ">
+		<div >
+			<nav className="navbar  navbar-expand-lg navbar-light   bg-white py-3 shadow-sm ">
 				<div className="container-fluid">
 					<Link className="navbar-brand fw-bold fs-4 " to="/">
 						We-Sell

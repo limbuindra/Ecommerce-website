@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Skeleton from "react-loading-skeleton";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 const Products = () => {
 	const [data, setData] = useState([]);
 	const [filter, setFilter] = useState(data);
 	const [loading, setLoading] = useState(false);
+const navigate= useNavigate();
+
+
 	let componentMounted = true;
 	useEffect(() => {
 		const getProducts = async () => {
@@ -68,8 +71,8 @@ setFilter(updatedList);
 				{filter.map((product) => {
 					return (
 						<>
-							<div className="col-md-3 mb-4">
-								<div class="card h-100 text-center p-4" key={product.id}>
+							<div className="col-md-3 mb-4" >
+								<div class="card h-100 text-center p-4" key={product.id} >
 									<img
 										src={product.image}
 										class="card-img-top"

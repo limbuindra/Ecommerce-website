@@ -14,13 +14,13 @@ const Footer = () => {
 									<Link to="/about"> about us</Link>
 								</li>
 								<li>
-									<Link to=""> our services</Link>
+									<Link to="/products"> our services</Link>
 								</li>
 								<li>
 									<Link to=""> privacy policy</Link>
 								</li>
 								<li>
-									<Link to=""> contact us</Link>
+									<Link to="/contact"> contact us</Link>
 								</li>
 							</ul>
 						</div>
@@ -64,16 +64,16 @@ const Footer = () => {
 						<div className="footer-col">
 							<h4>follow us</h4>
 							<div className="social-links">
-								<Link to=""> 
+								<Link to="">
 									<BsFacebook />
 								</Link>
-								<Link to=""> 
+								<Link to="">
 									<BsTwitter />
 								</Link>
-								<Link to=""> 
+								<Link to="">
 									<BsGoogle />
 								</Link>
-								<Link to=""> 
+								<Link to="">
 									<BsInstagram />
 								</Link>
 							</div>

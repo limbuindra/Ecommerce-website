@@ -49,7 +49,7 @@ const ProductDetails = () => {
 	const ShowProduct = () => {
 		return (
 			<>
-				<div className="col-md-6 ">
+				<div className="col-md-6 mb-5">
 					<img
 						src={product.image}
 						alt={product.title}
